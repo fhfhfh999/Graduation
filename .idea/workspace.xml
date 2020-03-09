@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="329f2267-4b02-410b-91d9-51b9a3ae03c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/res/Translation/machine_translation/CBOW/cbow.py" beforeDir="false" afterPath="$PROJECT_DIR$/res/Translation/machine_translation/CBOW/cbow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Translation/machine_translation/CBOW/data_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/res/Translation/machine_translation/CBOW/data_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Translation/machine_translation/CBOW/test_embededword.py" beforeDir="false" afterPath="$PROJECT_DIR$/res/Translation/machine_translation/CBOW/test_embededword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Translation/machine_translation/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/res/Translation/machine_translation/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Translation/machine_translation/seq2seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/res/Translation/machine_translation/seq2seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Translation/machine_translation/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/res/Translation/machine_translation/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Graduation@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Graduation@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Graduation@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="graduation: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Graduation@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="graduation: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="sentences: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/res/Translation/machine_translation" />
+  </component>
+  <component name="JupyterTrust" id="65c196e2-3e1b-48ae-9957-2007ce50f731" />
+  <component name="ProjectId" id="1XYKDuveCWC3TeftQLYIkSUSWkv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/machine_translation" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\77291\Documents\python\Graduation\res" />
+      <recent name="C:\Users\77291\Documents\python\Graduation\graduation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\77291\Documents\python\Graduation\exc\other_tool" />
+      <recent name="C:\Users\77291\Documents\python\Graduation\exc" />
+      <recent name="C:\Users\77291\Documents\python\Graduation\src" />
+      <recent name="C:\Users\77291\Documents\python\Graduation\res\dataInsert" />
+      <recent name="C:\Users\77291\Documents\python\Graduation\res" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.inference">
+    <configuration name="InsertSentence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Graduation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/res/other_tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\77291\Documents\python\Graduation\res\dataInsert\InsertSentence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Semantic_similarity_WordNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Graduation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Compare" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Compare/Semantic_similarity_WordNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Graduation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/res/Translation/machine_translation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/res/Translation/machine_translation/inference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="seq2seq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Graduation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/res/Translation/machine_translation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/res/Translation/machine_translation/seq2seq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Graduation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/res/Translation/machine_translation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/res/Translation/machine_translation/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.inference" />
+        <item itemvalue="Python.seq2seq" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python.InsertSentence" />
+        <item itemvalue="Python.Semantic_similarity_WordNet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="329f2267-4b02-410b-91d9-51b9a3ae03c5" name="Default Changelist" comment="" />
+      <created>1581217471082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581217471082</updated>
+      <workItem from="1581217472238" duration="6372000" />
+      <workItem from="1581299074007" duration="1594000" />
+      <workItem from="1581391766987" duration="2349000" />
+      <workItem from="1581563837194" duration="27000" />
+      <workItem from="1581929360595" duration="681000" />
+      <workItem from="1581930977706" duration="51000" />
+      <workItem from="1581993383440" duration="4245000" />
+      <workItem from="1582031723584" duration="620000" />
+      <workItem from="1582078338235" duration="5143000" />
+      <workItem from="1582101374730" duration="2946000" />
+      <workItem from="1582104585706" duration="3542000" />
+      <workItem from="1582163463457" duration="4297000" />
+      <workItem from="1582597787659" duration="1974000" />
+      <workItem from="1582643121276" duration="11000" />
+      <workItem from="1582732602102" duration="569000" />
+      <workItem from="1582770854067" duration="1764000" />
+      <workItem from="1582774252844" duration="42000" />
+      <workItem from="1582791237226" duration="1228000" />
+      <workItem from="1582855284820" duration="947000" />
+      <workItem from="1582857316781" duration="2652000" />
+      <workItem from="1582860447989" duration="107000" />
+      <workItem from="1582860592253" duration="2225000" />
+      <workItem from="1583378063833" duration="3907000" />
+      <workItem from="1583425609527" duration="1137000" />
+      <workItem from="1583461911808" duration="1268000" />
+      <workItem from="1583463198969" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582732830096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582732830096" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581262361328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1581262361328" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1582167669197">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1582167669197" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583462247493">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583462247493" />
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1583426759000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583426759000" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1583426759000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583426759000" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1583426759000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583426759000" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1583426759000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583426759000" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582167825908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582167825908" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582167825908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582167825908" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582167825908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582167825908" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582167825908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582167825908" />
+    <state x="430" y="49" key="SettingsEditor" timestamp="1583424760538">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="49" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583424760538" />
+    <state x="906" y="347" width="340" height="240" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582856229449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="906" y="347" width="340" height="240" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1582856229449" />
+    <state x="742" y="104" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582856211743">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="742" y="104" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1582856211743" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581299080875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581299080875" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Graduation$SynonymsFunction.coverage" NAME="SynonymsFunction Coverage Results" MODIFIED="1582083762929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/General" />
+    <SUITE FILE_PATH="coverage/Graduation$Semantic_similarity_WordNet.coverage" NAME="Semantic_similarity_WordNet Coverage Results" MODIFIED="1582859585102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Compare" />
+    <SUITE FILE_PATH="coverage/Graduation$GetSentence.coverage" NAME="GetSentence Coverage Results" MODIFIED="1581994938268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/res/other_tool" />
+    <SUITE FILE_PATH="coverage/Graduation$InsertSentence.coverage" NAME="InsertSentence Coverage Results" MODIFIED="1582860607948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/res/other_tool" />
+    <SUITE FILE_PATH="coverage/Graduation$inference.coverage" NAME="inference Coverage Results" MODIFIED="1583426738989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/res/Translation/machine_translation" />
+    <SUITE FILE_PATH="coverage/Graduation$main.coverage" NAME="main Coverage Results" MODIFIED="1582098329284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Graduation$mutate.coverage" NAME="mutate Coverage Results" MODIFIED="1582165230580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Mutation" />
+    <SUITE FILE_PATH="coverage/Graduation$Similar__1_.coverage" NAME="Similar (1) Coverage Results" MODIFIED="1582165426838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Mutation" />
+    <SUITE FILE_PATH="coverage/Graduation$Similar.coverage" NAME="Similar Coverage Results" MODIFIED="1582105593605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/General" />
+    <SUITE FILE_PATH="coverage/Graduation$utils.coverage" NAME="utils Coverage Results" MODIFIED="1583426261294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/res/Translation/machine_translation" />
+    <SUITE FILE_PATH="coverage/Graduation$seq2seq.coverage" NAME="seq2seq Coverage Results" MODIFIED="1583426629832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/res/Translation/machine_translation" />
+  </component>
+</project>
