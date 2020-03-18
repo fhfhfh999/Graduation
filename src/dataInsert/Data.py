@@ -43,13 +43,13 @@ class Data:
         sql = "SELECT original_sentence, mutation_sentence FROM graduation.sentences;"
         self.cursor.execute(sql)
         data = self.cursor.fetchall()
-        all_pairs = []
+        all_pair = []
         for p in data:
             pair = Pair(p[0])
             if p[1] is not None:
                 pair.set_mutation(p[1])
-            all_pairs.extend(pair)
-        return all_pairs
+            all_pair.append(pair)
+        return all_pair
 
     def close(self):
         self.cursor.close()

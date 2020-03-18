@@ -10,10 +10,9 @@ class Pairs:
             __pair2: the sentence pair translated
         """
 
-    __pair2 = None
-
-    def __init__(self, pair1):
+    def __init__(self, pair1, pair2=None):
         self.__pair1 = pair1
+        self.__pair2 = pair2
         self.__IS_TRANSLATED = 0
 
     def input_translate(self, pair2):
@@ -27,10 +26,10 @@ class Pairs:
         if pair2 is not None:
             self.__IS_TRANSLATED = 1
 
-    def get_original_sentence(self):
+    def get_original_sentences(self):
         return self.__pair1
 
-    def get_translated_sentence(self):
+    def get_translated_sentences(self):
         return self.__pair2
 
     def __bool__(self):
@@ -48,7 +47,7 @@ class Pairs:
         return all sentences in Pairs
         :return: all sentences in Pairs, separated with "/n"
         """
-        ans = self.__pair1.get_original_sentence + "/n" + self.__pair1.get_mutated_sentence + "/n" + self.pair2.get_original_sentence + "/n" + self.pair2.get_mutated_sentence
+        ans = self.__pair1.get_original_sentences + "/n" + self.__pair1.get_mutated_sentence + "/n" + self.pair2.get_original_sentences + "/n" + self.pair2.get_mutated_sentence
         return ans
 
     def __repr__(self):
@@ -57,8 +56,8 @@ class Pairs:
         """
         state = "translated" if self.__IS_TRANSLATED == 1 else "not translated"
         print("the sentence pair is " + state)
-        print("target sentence 1 is :" + self.__pair1.get_original_sentence)
+        print("target sentence 1 is :" + self.__pair1.get_original_sentences)
         print("target sentence 2 is :" + self.__pair1.get_mutated_sentence)
-        print("translated sentence 1 is :" + self.pair2.get_original_sentence)
+        print("translated sentence 1 is :" + self.pair2.get_original_sentences)
         print("translated sentence 2 is :" + self.pair2.get_mutated_sentence)
 

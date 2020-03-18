@@ -39,4 +39,15 @@ def compare_chs_sentence(sen1, sen2, threshold=0):
 
 
 if __name__ == "__main__":
-    print(synonyms.display("你"))
+    print(synonyms.display("今天"))
+    print(synonyms.display("天气"))
+    print(synonyms.display("真好"))
+    print(synonyms.display("做"))
+    print(synonyms.display("作业"))
+    print(synonyms.display("喜欢"))
+    print(synonyms.display("故事"))
+    print(synonyms.display("猫"))
+    print(synonyms.display("可爱"))
+    print(synonyms.display("一种"))
+    print(synonyms.display("动物"))
+    print(synonyms.display("今天天气"))

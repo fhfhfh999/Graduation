@@ -36,7 +36,7 @@ class Mutation:
 
 if __name__ == '__main__':
     mutation = Mutation()
-    print(mutation.mutate("你好吗"))
+    print(mutation.mutate("我在人民广场吃着炸鸡，而此时此刻你在哪里"))
 
 
 

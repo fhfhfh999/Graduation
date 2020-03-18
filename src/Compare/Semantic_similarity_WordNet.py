@@ -9,15 +9,19 @@ def penn_to_wn(tag):
     :return: the acceptable pos of words, include noun, verb, adjective, adverb
     """
     if tag.startswith('N'):
+        # noun
         return 'n'
 
     if tag.startswith('V'):
+        # verb
         return 'v'
 
     if tag.startswith('J'):
+        # adjective
         return 'a'
 
     if tag.startswith('R'):
+        # adverb
         return 'r'
 
     return None
@@ -59,21 +63,26 @@ def sentence_similarity(sentence1, sentence2):
     return score
 
 
-def symmetric_sentence_similarity(sentence1, sentence2):
+def similarity(sentence1, sentence2):
     """ compute the symmetric sentence similarity using Wordnet """
     return (sentence_similarity(sentence1, sentence2) + sentence_similarity(sentence2, sentence1)) / 2
 
 
 if __name__ == "__main__":
-    sentences = [
-        "Dogs are awesome.",
-        "Some gorgeous creatures are felines.",
-        "Dolphins are swimming mammals.",
-        "Cats are not beautiful animals.",
-    ]
+    sen1 = "The weather is so good today"
+    sen2 = "Today's weather is great"
+    print(similarity(sen1, sen2))
 
-    focus_sentence = "Cats are beautiful animals."
-
-    for sentence in sentences:
-        print("similarity of sentence1:\"", focus_sentence, "\" and sentence2:\"", sentence, "\" are :", symmetric_sentence_similarity(focus_sentence, sentence))
+    # sentences = [
+    #     "Dogs are awesome.",
+    #     "Some gorgeous creatures are felines.",
+    #     "Dolphins are swimming mammals.",
+    #     "Cats are not beautiful animals.",
+    # ]
+    #
+    # focus_sentence = "Cats are beautiful animals."
+    #
+    # for sentence in sentences:
+    #     print("similarity of sentence1:\"", focus_sentence,
+    #           "\" and sentence2:\"", sentence, "\" are :", similarity(focus_sentence, sentence))
 

@@ -1,4 +1,5 @@
 import pymysql.cursors
+import os
 
 config = {"host": "localhost",
           "user": "11510700",
@@ -37,9 +38,18 @@ def insert_sentences(original_sentence, mutated_sentence):
 
 
 # TODO（shf):  use the method upside to insert the sentence into database
-test_data1 = "今天天气真好"
-test_data2 = "今天的天气真好"
-insert_sentences(test_data1, test_data2)
+
+# file = open("C:\\Users\\77291\\Documents\\python\\Graduation\\res\\cn.txt", encoding="UTF-8")
+# all_lines = file.readlines()
+# for line in all_lines:
+#     line = "".join(line.split())
+#     print(line)
+#     insert_sentence(line)
+# file.close()
+
+# test_data1 = "今天天气真好"
+# test_data2 = "今天的天气真好"
+# insert_sentences(test_data1, test_data2)
 
 cursor.close()
 db.close()

@@ -68,10 +68,25 @@ class Pair:
         true for two sentence both be meaningful,
         false for at least one sentence is default
         """
-        if self.__original_sentence != "" & self.__mutated_sentence != "" & self.__original_sentence != self.__mutated_sentence:
+        if (self.__original_sentence != "") & (self.__mutated_sentence != "") & (self.__original_sentence != self.__mutated_sentence):
             return True
         else:
             return False
 
+    def __repr__(self):
+        """
+        output the original sentences, used for check
+        :return: original sentences of pair
+        """
+        return self.__original_sentence
 
+
+if __name__ == "__main__":
+    pair = Pair("1")
+    pair2 = Pair("2")
+    pair3 = Pair("3")
+    item = [pair, pair2]
+    item.append(pair3)
+    for p in item:
+        print(p)
 
