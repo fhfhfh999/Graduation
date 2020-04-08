@@ -1,7 +1,7 @@
 from General.Pair import Pair
 from General.Pairs import Pairs
 from Mutation.mutate import Mutation
-from Translation import Translator
+from Translation import *
 from dataInsert.Data import Data
 from Compare.Semantic_similarity_WordNet import similarity
 

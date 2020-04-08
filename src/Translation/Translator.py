@@ -101,7 +101,6 @@ class Translator:
         try:
             r = requests.get(url)
             result = json.loads(r.text)
-            # if result[7] is not None:
             if len(result[7]) != 0:
                 # 如果我们文本输错，提示你是不是要找xxx的话，那么重新把xxx正确的翻译之后返回
                 try:

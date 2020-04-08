@@ -35,8 +35,15 @@ class Mutation:
 
 
 if __name__ == '__main__':
+    sentences = {
+        "今天天气真好",
+        "这是一个测试用例",
+        "这种方法的可行性不高"
+    }
     mutation = Mutation()
-    print(mutation.mutate("我在人民广场吃着炸鸡，而此时此刻你在哪里"))
+    for sentence in sentences:
+        print(mutation.mutate(sentence))
+    # print(mutation.mutate("我在人民广场吃着炸鸡，而此时此刻你在哪里"))
 
 
 
