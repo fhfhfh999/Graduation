@@ -13,6 +13,7 @@ if __name__ == '__main__':
     mutation = Mutation()
     all_pair = data.get_sentence()
     output_pairs = []
+    number = 0
     count = 0
     for pair in all_pair:
         if len(pair) == 1:
@@ -20,6 +21,7 @@ if __name__ == '__main__':
             mutated_sentence = mutation.mutate(sentence)
             pair.set_mutation(mutated_sentence)
         if bool(pair):
+            number += 1
             original_translation = translator.translate(pair.get_original_sentence())
             mutated_translation = translator.translate(pair.get_mutated_sentence())
             if similarity(original_translation, mutated_translation) > threshold:
@@ -29,7 +31,7 @@ if __name__ == '__main__':
                 pairs = Pairs(pair, translated_pair)
                 output_pairs.append(pairs)
 
-    print(count/len(all_pair))
+    print(count/number)
     if len(output_pairs) != 0:
         print("not accurate translation:")
         for pairs in output_pairs:

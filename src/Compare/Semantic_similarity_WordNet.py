@@ -59,7 +59,10 @@ def sentence_similarity(sentence1, sentence2):
                 best_score = max(s, best_score)
         score += best_score
         count += 1
-    score /= count
+    if count != 0:
+        score /= count
+    else:
+        score = 0
     return score
 
 

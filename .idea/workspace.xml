@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="329f2267-4b02-410b-91d9-51b9a3ae03c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Compare/Semantic_similarity_WordNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compare/Semantic_similarity_WordNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mutation/mutate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mutation/mutate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +79,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Job" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -92,7 +95,7 @@
       <recent name="C:\Users\77291\Documents\python\Graduation\res\dataInsert" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Translator2">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Semantic_similarity_WordNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Graduation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,8 +208,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Translator2" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Translator2" />
         <item itemvalue="Python.mutate" />
         <item itemvalue="Python.Translator (1)" />
         <item itemvalue="Python.Semantic_similarity_WordNet" />
@@ -266,6 +269,8 @@
       <workItem from="1585012434780" duration="8000" />
       <workItem from="1586334291800" duration="4753000" />
       <workItem from="1587114635127" duration="47000" />
+      <workItem from="1587650391669" duration="4405000" />
+      <workItem from="1587658134496" duration="109000" />
     </task>
     <servers />
   </component>
@@ -298,22 +303,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587114681114" />
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1586360985435">
+    <state width="1493" height="118" key="GridCell.Tab.0.bottom" timestamp="1587657860789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586360985435" />
-    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1586360985435">
+    <state width="1493" height="118" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587657860789" />
+    <state width="1493" height="118" key="GridCell.Tab.0.center" timestamp="1587657860789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586360985435" />
-    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1586360985435">
+    <state width="1493" height="118" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587657860789" />
+    <state width="1493" height="118" key="GridCell.Tab.0.left" timestamp="1587657860789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586360985435" />
-    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1586360985435">
+    <state width="1493" height="118" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587657860789" />
+    <state width="1493" height="118" key="GridCell.Tab.0.right" timestamp="1587657860789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586360985435" />
+    <state width="1493" height="118" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587657860789" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1584543524257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -359,7 +364,7 @@
     <SUITE FILE_PATH="coverage/Graduation$Translator.coverage" NAME="Translator Coverage Results" MODIFIED="1584523204471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/res/Translation" />
     <SUITE FILE_PATH="coverage/Graduation$Similar__1_.coverage" NAME="Similar (1) Coverage Results" MODIFIED="1582165426838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Mutation" />
     <SUITE FILE_PATH="coverage/Graduation$mutate.coverage" NAME="mutate Coverage Results" MODIFIED="1584678983950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Mutation" />
-    <SUITE FILE_PATH="coverage/Graduation$main.coverage" NAME="main Coverage Results" MODIFIED="1586337024649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Graduation$main.coverage" NAME="main Coverage Results" MODIFIED="1587652326795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Graduation$utils.coverage" NAME="utils Coverage Results" MODIFIED="1583426261294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/res/Translation/machine_translation" />
     <SUITE FILE_PATH="coverage/Graduation$Translator__1_.coverage" NAME="Translator (1) Coverage Results" MODIFIED="1584584595698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Translation" />
     <SUITE FILE_PATH="coverage/Graduation$GetSentence.coverage" NAME="GetSentence Coverage Results" MODIFIED="1581994938268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/res/other_tool" />

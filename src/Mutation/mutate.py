@@ -31,7 +31,11 @@ class Mutation:
         mutated_sentence = ""
         for word in words:
             mutated_sentence += word
-        return mutated_sentence
+        # return mutated_sentence
+        if Similar.compare_chs_sentence(sentence, mutated_sentence, 0.6):
+            return mutated_sentence
+        else:
+            return ""
 
 
 if __name__ == '__main__':
