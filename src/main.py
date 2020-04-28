@@ -8,7 +8,7 @@ from Compare.Semantic_similarity_WordNet import similarity
 
 if __name__ == '__main__':
     threshold = 0.8
-    translator = Translator.getTranslator()
+    translator = Translator2.getTranslator()
     data = Data()
     mutation = Mutation()
     all_pair = data.get_sentence()

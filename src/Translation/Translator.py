@@ -105,11 +105,15 @@ class Translator:
                 # 如果我们文本输错，提示你是不是要找xxx的话，那么重新把xxx正确的翻译之后返回
                 try:
                     correctText = result[7][0].replace('<b><i>', ' ').replace('</i></b>', '')
-                    print(correctText)
+                    correctText = correctText.replace('</em>', '')
+                    correctText = correctText.replace('<em>', '')
+                    # print(correctText)
                     correctUrl = buildUrl(correctText, self.getTk(correctText))
                     correctR = requests.get(correctUrl)
                     newResult = json.loads(correctR.text)
                     res = newResult[0][0][0]
+                    # res = res.replace(' </ em>', '')
+                    # res = res.replace('<em> ', '')
                 except Exception as e:
                     print(e)
                     res = result[0][0][0]
@@ -135,4 +139,4 @@ def getTranslator():
 
 if __name__ == '__main__':
     translator = getTranslator()
-    print(translator.translate("这是一句话"))
+    print(translator.translate("这是一个句子"))

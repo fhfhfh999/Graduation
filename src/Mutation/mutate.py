@@ -32,9 +32,11 @@ class Mutation:
         for word in words:
             mutated_sentence += word
         # return mutated_sentence
-        if Similar.compare_chs_sentence(sentence, mutated_sentence, 0.6):
+        if Similar.compare_chs_sentence(sentence, mutated_sentence, 0.7):
             return mutated_sentence
         else:
+            print("not mutated well:", sentence)
+            print("mutation result", mutated_sentence)
             return ""
 
 
